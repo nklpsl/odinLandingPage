@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header,
+.titleSection,
+footer {
+    background-color: #1F2937;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+}
+
+.header {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #E5E7EB;
+}
+/*Title Section*/
+.titleSection {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+
+.col {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.col h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.col p{
+    color: #E5E7EB;
+}
+
+.col > .button{
+    width: 60px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+}
+
+.col.img {
+    background-color: #6e6e6e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Random Information Section*/
+
+.randomInformationSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 25px 0px 75px 0px;
+}
+
+.randomInformationSection h3 {
+    font-size: 36px;
+    font-weight: bolder;   
+    color: #1F2937;
+}
+
+.randomInformationSection .container  {
+    width: 60%;
+}
+
+.randomInformationSection .container   > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.emptyBlock {
+    width: 125px;
+    height: 125px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.randomInformationSection .container p {
+    font-size: 0.8rem;;
+    width: 80%;
+    text-align: center;
+}
+
+/*Quote Section*/
+
+.quoteSection {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.quoteSection > .container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.quoteSection p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quoteSection h4 {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+/*Sign Up Section*/
+
+.signUpSection {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    color: #F9FAF8;
+}
+
+
+.signUpSection > .container {
+    padding: 30px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.signUpSection h5 {
+    font-size: 18px;
+}
+
+.signUpSection  p {
+    color: #E5E7EB;
+}
+
+.button {
+    padding: 5px 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/*Footer*/
+
+footer {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
